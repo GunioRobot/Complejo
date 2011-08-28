@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF7D3DA140A821100B35432 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFF7D3D9140A821100B35432 /* main.cpp */; };
+		FFF7D3DC140A821100B35432 /* Complejo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFF7D3DB140A821100B35432 /* Complejo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFF7D3D3140A821100B35432 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FFF7D3DC140A821100B35432 /* Complejo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFF7D3D5140A821100B35432 /* Complejo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Complejo; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF7D3D9140A821100B35432 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FFF7D3DB140A821100B35432 /* Complejo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Complejo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF7D3D2140A821100B35432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF7D3CA140A821000B35432 = {
+			isa = PBXGroup;
+			children = (
+				FFF7D3D8140A821100B35432 /* Complejo */,
+				FFF7D3D6140A821100B35432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF7D3D6140A821100B35432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7D3D5140A821100B35432 /* Complejo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF7D3D8140A821100B35432 /* Complejo */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7D3D9140A821100B35432 /* main.cpp */,
+				FFF7D3DB140A821100B35432 /* Complejo.1 */,
+			);
+			path = Complejo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFF7D3D4140A821100B35432 /* Complejo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF7D3DF140A821100B35432 /* Build configuration list for PBXNativeTarget "Complejo" */;
+			buildPhases = (
+				FFF7D3D1140A821100B35432 /* Sources */,
+				FFF7D3D2140A821100B35432 /* Frameworks */,
+				FFF7D3D3140A821100B35432 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Complejo;
+			productName = Complejo;
+			productReference = FFF7D3D5140A821100B35432 /* Complejo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF7D3CC140A821000B35432 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FFF7D3CF140A821000B35432 /* Build configuration list for PBXProject "Complejo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFF7D3CA140A821000B35432;
+			productRefGroup = FFF7D3D6140A821100B35432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF7D3D4140A821100B35432 /* Complejo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF7D3D1140A821100B35432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF7D3DA140A821100B35432 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFF7D3DD140A821100B35432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFF7D3DE140A821100B35432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFF7D3E0140A821100B35432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF7D3E1140A821100B35432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF7D3CF140A821000B35432 /* Build configuration list for PBXProject "Complejo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF7D3DD140A821100B35432 /* Debug */,
+				FFF7D3DE140A821100B35432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF7D3DF140A821100B35432 /* Build configuration list for PBXNativeTarget "Complejo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF7D3E0140A821100B35432 /* Debug */,
+				FFF7D3E1140A821100B35432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF7D3CC140A821000B35432 /* Project object */;
+}
