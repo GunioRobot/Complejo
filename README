@@ -1,0 +1,2 @@
+This is a C++ project that instances six Complejo (complex numbers) objects in order to read two of them, and apply to them the four arithmetical operators.
+For this purpose, the arithmetical and stream operators have been overloaded.
